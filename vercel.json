@@ -17,11 +17,11 @@
     },
     {
       "src": "/admin",
-      "dest": "admin.html"
+      "dest": "/public/admin.html"
     },
     {
       "src": "/(.*)",
-      "dest": "$1"
+      "dest": "/public/$1"
     }
   ]
 }
